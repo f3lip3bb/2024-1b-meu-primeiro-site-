@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Merienda:wght@300..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --preto: #0d1321ff;
+    --azul: #1d2d44ff;
+    --cinzaclaro: #3e5c76ff;
+    --azulfraco: #748cabff;
+    --amareloclaro: #f0ebd8ff;
+    --fonte-titulo:font-family: "Merienda", cursive;
+    --fonte-texto:font-family: "Indie Flower", cursive;
+}
+
+body{
+    background-color: var(--azulfraco);
+    font-family: var(--fonte-texto);
+}
+
+.cabecalho{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--cinzaclaro);
+}
+
+
+.cabecalho-logo{
+    width: 18%;
+    border-radius: 100%;
+    padding: lem;
+}
+
+.cabecalho-link{
+text-decoration: none;
+color: var(--amareloclaro);
+font-size: 2em;
+margin-right: 1em;
+}
+
+.cabecalho-link:hover{
+    color: var(--azul);
+    font-size: 1.9em;
+    transition: 0.3s;
+}
+
+.principal-capa{
+    background-color: var(--amareloclaro);
+    display: flex; 
+    justify-content: space-around;
+    align-items: center;
+    padding: 1.5em;
+}
+
+.principal-capa_titulo{
+    font-size: 5em;
+    font-family: var(--fonte-titulo);
+}
+
+.principal-capa_texto{
+    font-size: 3em;
+}
+
+.principal-capa_img{
+    width: 30%;
+    border-radius: 10px;
+}
+.principal-capa_botao{
+    background-color: var(--preto);
+    text-decoration: none;
+    padding: 1.3em;
+    color: var(--azulfraco);
+    margin-top: 2px;
+    border-radius: 10px;
+    font-size: 1.5em;
+}
+
+.principal-capa_combotao{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
